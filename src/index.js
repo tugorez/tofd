@@ -1,7 +1,7 @@
 import FormData from 'form-data';
 
-const tofd = obj => Object.entries(obj).reduce((fd, [k, v]) => {
-  if (v) fd.append(k, v);
+const tofd = obj => Object.keys(obj).reduce((fd, k) => {
+  if (obj[k]) fd.append(k, obj[k]);
   return fd;
 }, new FormData());
 
