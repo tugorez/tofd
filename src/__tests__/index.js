@@ -6,7 +6,10 @@ const object = {
   b: 'some_random_b',
   users: [
     { name: 'john doe '}
-  ]
+  ],
+  hello: {
+    world: Buffer.from([1, 2, 3])
+  }
 };
 
 describe('tofd', () => {

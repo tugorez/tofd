@@ -20,7 +20,8 @@ function flattenKeys(obj) {
         ? `${parentKey}[${key}]`
         : key;
 
-      if ((typeof value === 'object' || Array.isArray(value)) && !(value instanceof File)) {
+      if ((typeof value === 'object' || Array.isArray(value)) &&
+        (!(value instanceof File) && !Buffer.isBuffer(value))) {
         flatten(value, newKey);
       } else {
         output[newKey] = value;
