@@ -29,9 +29,9 @@ const payload = tofd({
   last_name: 'hello',
   // Nested arrays and objects
   tags: [{ id: 1 } , { id: 2 }],
-  // Files and buffers
-  attachments: [File],
-  avatar: avatar
+  // Files and Buffers
+  attachments: [File, File],
+  avatar: File
 })
 ```
 
