@@ -1,6 +1,6 @@
 # tofd
 
-Converts an object to a FormData representation. Also supports nested arrays, objects, File and Buffers.
+Converts an object to a FormData representation. Also supports nested arrays, objects, File, and Buffers.
 
 ## Installation
 ```bash
