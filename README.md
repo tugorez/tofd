@@ -1,6 +1,6 @@
 # tofd
 
-Converts an object to a FormData representation. Also supports nested arrays, objects, File, and Buffers.
+Converts an object to a `FormData` representation. Also supports nested arrays, objects, `File`, and `Buffer`s.
 
 ## Installation
 ```bash
@@ -39,4 +39,4 @@ const payload = tofd({
 ```
 tofd(obj: Object): FormData
 ```
-Accepts an object that gets converted into FormData.
+Accepts an object that gets converted into `FormData`.
