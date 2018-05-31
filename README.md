@@ -8,9 +8,8 @@ npm i tofd --save
 ```
 
 ## Why
-This allows you to declaratively create a `FormData` instead of having to `append` each property.
+This library allows you to declaratively create a `FormData` instead of having to `append` each property.
 
-### Before
 ```diff
 - const payload = new FormData()
 - payload.append('first_name', firstName)
