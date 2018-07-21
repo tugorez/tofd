@@ -1,6 +1,6 @@
 import FormData from 'form-data';
 
-function flattenKeys(obj) {
+function flattenKeys(form) {
   const output = {};
   function flatten(obj, parentKey) {
     Object.keys(obj).forEach(key => {
@@ -16,7 +16,7 @@ function flattenKeys(obj) {
       }
     });
   }
-  flatten(obj);
+  flatten(form);
   return output;
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "tofd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "tofd converts an object to FormData",
   "main": "lib/index.js",
   "repository": "https://github.com/tugorez/tofd",
