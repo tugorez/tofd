@@ -2,5 +2,9 @@
   "env": {
     "jest": true
   },
-  "extends": ["airbnb-base"]
+  "plugins": ["prettier"],
+  "extends": ["eslint:recommended", "airbnb-base", "prettier"],
+  "globals": {
+    "File": true
+  }
 }
