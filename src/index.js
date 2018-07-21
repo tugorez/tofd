@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import FormData from 'form-data';
 
 function flattenKeys(form) {

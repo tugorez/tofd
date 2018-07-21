@@ -1,6 +1,6 @@
 {
   "name": "tofd",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "tofd converts an object to FormData",
   "main": "lib/index.js",
   "repository": "https://github.com/tugorez/tofd",
@@ -31,6 +31,7 @@
     ]
   },
   "dependencies": {
+    "buffer": "^5.1.0",
     "form-data": "^2.1.2"
   },
   "devDependencies": {
