@@ -7,7 +7,7 @@ function flattenKeys(form) {
     Object.keys(obj).forEach(key => {
       const value = obj[key];
       const newKey = parentKey ? `${parentKey}[${key}]` : key;
-      if (typeof value === 'object' && value.uri && value.type && value.name)
+      if (value && value.uri && value.type && value.name)
         output[newKey] = value;
       else if (
         (typeof value === 'object' || Array.isArray(value)) &&
